@@ -45,6 +45,20 @@ But I'm really happy that you're here reading this.
 <button id="nextBtn">Continue 🤍</button>
 
 `;
+            document.getElementById("nextBtn").addEventListener("click", function () {
+
+document.querySelector(".container").innerHTML = `
+<h1 class="title">But there is something I need to tell you... 🤍</h1>
+
+<p class="subtitle">
+Ever since you came into my life,<br><br>
+ordinary days started feeling a little more special.
+</p>
+
+<button id="finalBtn">Continue 🤍</button>
+`;
+
+});
         },3000);
     }
 }
