@@ -1,22 +1,25 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.getElementById("continueBtn").addEventListener("click", function(){
 
-    const button = document.getElementById("continueBtn");
+document.querySelector(".container").innerHTML = `
 
-    button.addEventListener("click", () => {
+<h1 class="title">
+Hi, Gunjan 🤍
+</h1>
 
-        button.innerHTML = "Loading... 🤍";
+<p class="subtitle">
+Before you continue...
 
-        button.style.transform = "scale(0.95)";
+I just want two minutes of your time.
 
-        setTimeout(() => {
+Nothing more.
 
-            alert("🌌 Welcome to Project Sunrise.\n\nOur story begins here...");
+Nothing less.
+</p>
 
-            button.innerHTML = "Continue 🤍";
-            button.style.transform = "scale(1)";
+<button id="nextBtn">
+Continue →
+</button>
 
-        },1000);
-
-    });
+`;
 
 });
