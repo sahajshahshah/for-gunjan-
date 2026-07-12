@@ -57,7 +57,17 @@ ordinary days started feeling a little more special.
 
 <button id="finalBtn">Continue 🤍</button>
 `;
+document.getElementById("finalBtn").addEventListener("click", function () {
 
+document.querySelector(".container").innerHTML = `
+<h1 class="title">You make life brighter. 🤍</h1>
+
+<p class="subtitle">
+And this is only the beginning...
+</p>
+`;
+
+});
 });
         },3000);
     }
