@@ -34,7 +34,17 @@ function typeTitle() {
         },1500);
 
         setTimeout(()=>{
-            alert("Scene 4 coming...");
+        document.querySelector(".container").innerHTML = `
+
+<h1 class="title">I don't know how this story ends...</h1>
+
+<p class="subtitle">
+But I'm really happy that you're here reading this.
+</p>
+
+<button id="nextBtn">Continue 🤍</button>
+
+`;
         },3000);
     }
 }
