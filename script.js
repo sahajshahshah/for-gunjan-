@@ -110,11 +110,47 @@ You make ordinary moments feel special.<br><br>
 And there's one question I've wanted to ask... ❤️
 </p>
 
-<h2 style="margin-top:25px;">
-Will you be my girlfriend?
+<h2 style="margin-top:25px;line-height:1.6;">
+Would you give me a chance... 🤍
 </h2>
 `;
 
-});
+document.querySelector(".container").innerHTML = `
+
+<h1 class="title">
+Thank you... 🤍
+</h1>
+
+<p class="subtitle">
+No matter what your answer is,<br><br>
+
+Thank you for taking the time
+to read every word on this page.
+
+It truly means a lot to me. ✨
+</p>
+
+`;});
 
 });
+setInterval(() => {
+
+    const heart = document.createElement("div");
+
+    heart.className = "heart";
+
+    heart.innerHTML = "🤍";
+
+    heart.style.left = Math.random() * 100 + "%";
+
+    heart.style.fontSize = (16 + Math.random()*12) + "px";
+
+    document.body.appendChild(heart);
+
+    setTimeout(() => {
+
+        heart.remove();
+
+    },8000);
+
+},5000);
