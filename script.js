@@ -105,16 +105,35 @@ document.querySelector(".container").innerHTML = `
 <h1 class="title">Gunjan... 🤍</h1>
 
 <p class="subtitle">
-You make ordinary moments feel special.<br><br>
 
-And there's one question I've wanted to ask... ❤️
+If you've made it this far...<br><br>
+
+Maybe my words were worth your time.<br><br>
+
+There is just one last thing
+I want to ask you... 🤍
+
 </p>
+<div style="margin-top:30px;">
 
-<h2 style="margin-top:25px;line-height:1.6;">
-Would you give me a chance... 🤍
-</h2>
-`;
+<button id="yesBtn">🤍 Yes</button>
 
+<button id="timeBtn" style="margin-left:12px;">
+💭 I Need More Time
+</button>
+
+</div>
+document.getElementById("yesBtn").addEventListener("click", function () {
+
+    // Abhi ke liye yahin Thank You screen dikhayenge.
+
+});
+
+document.getElementById("timeBtn").addEventListener("click", function () {
+
+    alert("Take all the time you need. 🤍");
+
+});
 document.querySelector(".container").innerHTML = `
 
 <h1 class="title">
