@@ -22,7 +22,20 @@ body{
     text-align:center;
     width:90%;
     max-width:700px;
-    animation:fadeIn 2s ease;
+
+    background:rgba(255,255,255,0.05);
+    backdrop-filter:blur(12px);
+
+    border:1px solid rgba(255,255,255,0.1);
+
+    border-radius:30px;
+
+    padding:40px;
+
+    box-shadow:
+        0 0 50px rgba(255,255,255,.05);
+
+    animation:fadeIn 1s ease;
 }
 
 .title{
@@ -168,4 +181,8 @@ body{
     50%{
         opacity:0;
     }
+}
+
+button:active{
+    transform:scale(.96);
 }
