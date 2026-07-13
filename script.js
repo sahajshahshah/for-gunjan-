@@ -1,4 +1,13 @@
-document.getElementById("continueBtn").addEventListener("click", function () {
+const stars = document.querySelector(".stars");
+
+for (let i = 0; i < 100; i++) {
+    const star = document.createElement("span");
+    star.style.top = Math.random() * 100 + "%";
+    star.style.left = Math.random() * 100 + "%";
+    star.style.animationDelay = Math.random() * 3 + "s";
+    star.style.opacity = Math.random();
+    stars.appendChild(star);
+}document.getElementById("continueBtn").addEventListener("click", function () {
 
 document.querySelector(".container").innerHTML = `
 
