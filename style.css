@@ -26,20 +26,25 @@ body{
 }
 
 .title{
-    font-size:2.2rem;
+    font-size:2.4rem;
     font-weight:600;
     line-height:1.4;
+    color:#fff;
+    text-shadow:
+        0 0 10px rgba(255,255,255,.4),
+        0 0 25px rgba(255,255,255,.2);
 }
 
 .subtitle{
-    margin-top:20px;
-    font-size:1.1rem;
-    color:#cfcfcf;
+    margin-top:25px;
+    font-size:1.15rem;
+    color:#d8d8d8;
+    line-height:1.8;
 }
 
 #continueBtn{
-    margin-top:40px;
-    padding:15px 40px;
+    margin-top:45px;
+    padding:16px 45px;
     border:none;
     border-radius:50px;
     background:white;
@@ -47,6 +52,14 @@ body{
     font-size:18px;
     cursor:pointer;
     transition:.4s;
+    box-shadow:0 0 20px rgba(255,255,255,.3);
+}
+
+#continueBtn:hover{
+    transform:scale(1.08);
+    box-shadow:
+        0 0 30px rgba(255,255,255,.7),
+        0 0 60px rgba(255,255,255,.3);
 }
 
 #continueBtn:hover{
