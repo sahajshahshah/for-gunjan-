@@ -85,3 +85,36 @@ And this is only the beginning...
 typeTitle();
 
 });
+document.getElementById("finalBtn").addEventListener("click", function () {
+
+document.querySelector(".container").innerHTML = `
+<h1 class="title">So... here's the truth. 🤍</h1>
+
+<p class="subtitle">
+Every page you just read had only one purpose.<br><br>
+
+To tell you something I've been keeping in my heart for a long time... ✨
+</p>
+
+<button id="lastBtn">Continue 🤍</button>
+`;
+
+document.getElementById("lastBtn").addEventListener("click", function () {
+
+document.querySelector(".container").innerHTML = `
+<h1 class="title">Gunjan... 🤍</h1>
+
+<p class="subtitle">
+You make ordinary moments feel special.<br><br>
+
+And there's one question I've wanted to ask... ❤️
+</p>
+
+<h2 style="margin-top:25px;">
+Will you be my girlfriend?
+</h2>
+`;
+
+});
+
+});
