@@ -313,6 +313,4 @@ setTimeout(()=>{
 heart.remove();
 
 },8000);
-
 },5000);
-
