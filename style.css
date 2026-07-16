@@ -290,3 +290,44 @@ button:active{
     }
 
 }
+/* Dream Background */
+
+body.proposal{
+
+background:
+linear-gradient(135deg,
+#ffd6e8,
+#ffeef6,
+#fff7fb);
+
+transition:2s ease;
+
+color:#4d2b38;
+
+        }
+body.proposal .container{
+
+background:rgba(255,255,255,.55);
+
+backdrop-filter:blur(25px);
+
+border:1px solid rgba(255,255,255,.8);
+
+box-shadow:
+
+0 20px 60px rgba(255,182,193,.35);
+
+                 }
+body.proposal .title{
+
+    color:#d63384;
+
+    text-shadow:none;
+
+}
+
+body.proposal .subtitle{
+
+    color:#6b4b58;
+
+}
