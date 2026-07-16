@@ -310,4 +310,4 @@ heart.remove();
 },8000);
 
 },5000);
-document.body.classList.add("proposal");
+
