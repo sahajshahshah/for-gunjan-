@@ -174,7 +174,7 @@ document.getElementById("next4").onclick = proposal;
 }
 
 function proposal(){
-
+document.body.classList.add("proposal");
 container.innerHTML = `
 
 <h1 class="title">
@@ -282,6 +282,11 @@ document.getElementById("restart").onclick = startStory;
 }
 
 function startStory(){
+    document.body.classList.remove("proposal");
+
+    scene1();
+
+}
 
 scene1();
 
